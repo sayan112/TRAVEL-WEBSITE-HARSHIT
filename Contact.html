@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ed3749e44.js" crossorigin="anonymous"></script>
+    <title>TRAVEL WEBSITE | WELCOME | Contact</title>
+</head>
+<style>
+    body .navbar{
+        background-color: #273238;
+    }
+    h1,a{
+    color: beige;
+    }
+    
+  .navbar a:hover{
+      border-bottom: 1px solid rgb(116, 114, 114) ;
+
+   }
+   .navbar a{
+    padding-bottom: 0.4rem;
+   }
+
+.header .logo,
+.header .navbar a{
+  color: rgb(255, 255, 255);
+}
+.form-rapper .company-address img{
+    height:43rem ;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.navbar .nav-items{
+
+  float: right;
+  margin-top:1em;
+padding: 1.6rem;
+}
+.navbar::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+ .navbar .nav-item{
+  display: inline-block;
+  padding: 1rem;  
+  /*  1 rem = 10px */
+  text-transform: uppercase;
+}
+ nav .navbar bg-dark{
+    width: 100px;
+    height: 100px;
+}
+body .navbar{
+    width: 1266px;
+    height: 115px;
+}
+nav a {
+    text-decoration: none;
+    text-indent:0;
+    list-style: none;
+    list-style-type: none;
+
+}
+
+/* ########## contact real page styeling ################### */
+.contact-form
+    {
+        padding: 5rem 0 ;
+  
+    }
+    /* .form-rapper{
+     border:10px dotted rgb(206, 14, 14);  
+    } */
+    .form-rapper::after
+    {
+        content: "";
+        display: block;
+        clear: both;
+    }
+  
+ 
+.company-address{
+    border: 2px solid #ff7a7a;
+    width: 49%;
+    float:left;
+    height: 65rem;
+
+}
+.form{
+    border: 2px solid rgb(255, 90, 90);
+    background: rgb(255, 255, 255);
+    width:  49%;
+    float:right;
+    padding: 2rem;
+}
+
+.form-rapper .company-address img {
+   max-width: 100%;
+   min-height: 4rem;
+ object-fit: cover;  
+ 
+}
+.address-group{
+ margin-top:2rem ;
+}
+.address-group h2{
+    display: inline-block;
+    padding-left: 1rem;
+}
+/* ********** Contact us stying ***************** */
+.form h1::after {
+    content: "";
+    display: block;
+    width: 98%;
+    border: 2px solid rgb(255, 81, 81);
+
+}
+.form-rapper .form label{
+    display: block;
+}
+.form-rapper .form input{
+    padding: 1rem;
+    width: 100%;
+
+}
+.form-rapper .form .from-group{
+    margin-bottom: 1.2rem;
+}
+.form-rapper .form label::after{
+    content: "*";
+    color: #ff7a7a;
+}
+.form-rapper .form textarea{
+    width: 100%;
+    height: 182px;
+    padding: 1rem;;
+}
+.conatct-us-heading{
+    font-size: x-large;
+}
+.Contact-btn {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(238, 81, 81);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+.Contact-btn:hover {
+	background:rgb(255, 2, 2);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+.form-rapper .form label{
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.15em;
+    font-weight: 900;
+    color: rgb(116, 114, 114);
+    font-size:1.6rem;
+}
+
+.company-address i {
+    padding-left: 2rem;
+}
+.company-address p {
+    padding-left: 2rem;
+}
+</style>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container">
+               <h1 class="logo">WT</h1>
+               <ul class="nav-items">
+                   <li class="nav-item" > <a href="INDEX.html">Home</a></li>
+                   <li class="nav-item"> <a href="About.html">About</a> </li>
+                   <li class="nav-item"><a href= "Contact.html">Contact us</a> </li>
+               </ul>
+           </div>
+       </nav>
+
+
+
+       <section class="contact-form">
+           <div class="container">
+
+        
+    <div class="form-rapper">
+    <div class="company-address">
+<div class="address-group">
+<i class="fa-2x text-red fas fa-map-marker-alt"></i>
+<h2 class="text-grey">ADDRESS</h2>
+<p>Sector V , kolkata 123</p>
+</div>
+<div class="address-group">
+<i class="fa-2x text-red fas fa-envelope "></i>
+<h2 class="text-grey ABOUT-heading">E-MAIL</h2>
+<p>sayanmaitraj5@gmail.com</p>
+</div>
+<div class="address-group">
+  <i class="fa-2x text-red fas fa-phone-alt"></i> 
+   <h2 class="text-grey">CALL</h2>
+   <p>+917386931309</p>
+   <img src="./Pictures/jpg.jpg" alt="Company img">
+</div>
+    </div>
+    <form action="" class="form">
+        <h1 class="text-black conatct-us-heading">Contact us </h1>
+   <p class="text-grey">Let us know your question , suggestion and any other concerns by filling out the contact from below . </p>
+<div class="from-group">
+  <label for="username " class="text-grey">Username</label>
+  <input type="text" name="" id="username"   required >
+</div>
+<div class="from-group">
+  <label for="email">Email</label>
+  <input type="text" name="" id=""   required >
+</div>
+<div class="from-group">
+  <label for="phone">Phone</label>
+  <input type="text" name="" id=""   required >
+</div>
+<div class="from-group">
+  <label for="message">Message</label>
+<textarea name="" id="message"    required ></textarea>
+</div>
+<button type="submit" class="Contact-btn">Submit </button>
+</form>
+
+    </div>
+</div>
+       </section>
+    
+</body>
+</html>
